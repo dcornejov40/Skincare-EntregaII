@@ -1,3 +1,10 @@
+if ("0") {
+  alert('Quieres comenzar?');
+}
+
+let name = prompt('COMO TE LLAMAS?');
+let age = prompt('QUE EDAD TIENES ?');
+
 
 let productos = [
   { id: 1, nombre: "Serum", precio: 30 },
