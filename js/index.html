@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MANDALAMO</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <head>
+        
+        <title>Compras de Productos Mandalamo</title>
+        <style>
+            img {
+              height: 200px;
+            }
+          </style>
+    </head>
+<body>
+    <h2 class="titulo-principal">CARRITO DE COMPRAS DE PRODUCTOS MANDALAMO</h2>
+
+    <div class="product-list">
+        <h3>Productos Disponibles</h3>
+
+        <div class="producto crema-rostro">
+            <img src="./Imagenes/crema rostro.jpg">
+            <p>Crema Rostro con ácido hialurónico</p>
+            <p>Precio: $25.000</p>
+            <button class="add-to-cart" data-product-id="1">Agregar al Carrito</button>
+        </div>
+
+        <div id="product-list">
+            <div class="producto exfoliante-rostro">
+                <img src="./Imagenes/exfoliante rostro.jpg">
+                <p>Exfoliante Rostro con ácido hialurónico</p>
+                <p>Precio: $25.000</p>
+                <button class="add-to-cart" data-product-id="2">Agregar al Carrito</button>
+            </div>
+
+            <div class="producto serum">
+                <img src="./Imagenes/seruml.jpg">
+                <p>Serum con ácido hialurónico</p>
+                <p>Precio: $35.000</p>
+                <button class="add-to-cart" data-product-id="3">Agregar al Carrito</button>
+            </div>
+
+            <div class="producto crema-cuerpo">
+                <img src="./Imagenes/crema de cuerpo.jpg">
+                <p>crema de cuerpo con ácido hialurónico</p>
+                <p>Precio: $35.000</p>
+                <button class="add-to-cart" data-product-id="3">Agregar al Carrito</button>
+            </div>
+            <div class="producto crema-cuerpo">
+                <img src="./Imagenes/exfoliante cuerpo.jpg">
+                <p>exfoliante cuerpo con ácido hialurónico</p>
+                <p>Precio: $35.000</p>
+                <button class="add-to-cart" data-product-id="3">Agregar al Carrito</button>
+
+
+</body>
+<button id="update-cart">Actualizar Carrito</button>
+<button id="clear-cart">Eliminar Productos</button>
+<ul id="cart"></ul>
+<p id="cart-total">Total: $0.00</p>
+
+<ul id="cart"></ul>
+<script src="./carrodecompramandalamo.js"></script>
+
+</html>
